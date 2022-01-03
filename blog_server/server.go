@@ -21,7 +21,7 @@ import (
 )
 
 type server struct {
-
+	blogpb.UnimplementedBlogServiceServer
 }
 
 var collection *mongo.Collection
